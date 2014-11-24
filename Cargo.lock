@@ -232,7 +232,7 @@ source = "git+https://github.com/servo/libfreetype2#f5c49c0da1d5bc6b206c41763440
 [[package]]
 name = "geom"
 version = "0.1.0"
-source = "git+https://github.com/servo/rust-geom#67b9ecc529f7de2157415b8a49d9cc72eb3ab4cf"
+source = "git+https://github.com/servo/rust-geom#c23108033bdad1822377f40fcbacd3869d297a91"
 
 [[package]]
 name = "gfx"

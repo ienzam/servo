@@ -596,7 +596,7 @@ version = "0.0.1"
 [[package]]
 name = "tls"
 version = "0.0.1"
-source = "git+https://github.com/alexcrichton/tls-rs#2abeb8996f3795f1e870523b7684dcc2ce64fa85"
+source = "git+https://github.com/alexcrichton/tls-rs#c6b7cfb20a40735281251d70615433974ac5185f"
 
 [[package]]
 name = "url"

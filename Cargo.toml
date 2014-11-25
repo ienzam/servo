@@ -59,6 +59,7 @@ optional = true
 
 [dependencies.url]
 git = "https://github.com/servo/rust-url"
+features = ["query_encoding"]
 
 [dependencies.green]
 git = "https://github.com/servo/green-rs"

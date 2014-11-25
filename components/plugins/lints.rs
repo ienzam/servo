@@ -171,7 +171,7 @@ impl LintPass for UnrootedPass {
         };
 
         let t = expr_ty(cx.tcx, &*expr);
-        match ty::get(t).sty {
+        match t.sty {
             ty::ty_struct(did, _) |
             ty::ty_enum(did, _) => {
                 if ty::has_attr(cx.tcx, did, "must_root") {

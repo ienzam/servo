@@ -347,7 +347,7 @@ source = "git+https://github.com/bjz/gl-rs.git#157de977e025d3069f4219c713b071bac
 [[package]]
 name = "layers"
 version = "0.1.0"
-source = "git+https://github.com/servo/rust-layers#0f6edd58b3b572f2aac97567b752c15db5fa1982"
+source = "git+https://github.com/servo/rust-layers#b2cb5f8509e8a507fa699e48df19c499478a3c2b"
 dependencies = [
  "cgl 0.0.1 (git+https://github.com/servo/rust-cgl)",
  "core_foundation 0.1.0 (git+https://github.com/servo/rust-core-foundation)",

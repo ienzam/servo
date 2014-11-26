@@ -380,9 +380,10 @@ source = "git+https://github.com/servo/html5ever#9b06394793528edc477bdc3bd24cfe1
 [[package]]
 name = "http"
 version = "0.1.0-pre"
-source = "git+https://github.com/servo/rust-http?ref=servo#f957b94deb2c939c8e3d73d51823b65f8a1f8256"
+source = "git+https://github.com/servo/rust-http?ref=servo#90425b9b2de5a458f7e25ffde03e9cd121319509"
 dependencies = [
  "openssl 0.0.2 (git+https://github.com/sfackler/rust-openssl.git)",
+ "time 0.0.3 (git+https://github.com/rust-lang/time)",
  "url 0.1.0 (git+https://github.com/servo/rust-url)",
 ]
 

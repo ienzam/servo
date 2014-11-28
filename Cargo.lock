@@ -27,7 +27,7 @@ dependencies = [
 [[package]]
 name = "azure"
 version = "0.1.0"
-source = "git+https://github.com/servo/rust-azure#64853170e435d9320f3fd828b9e7d16bc4c260a3"
+source = "git+https://github.com/servo/rust-azure#8d7c7af5fdda839bae9ae69a2044e7cfd55f0a44"
 dependencies = [
  "core_foundation 0.1.0 (git+https://github.com/servo/rust-core-foundation)",
  "core_graphics 0.1.0 (git+https://github.com/servo/rust-core-graphics)",

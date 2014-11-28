@@ -6,7 +6,7 @@ use std::sync::atomic::{AtomicUint, INIT_ATOMIC_UINT, SeqCst};
 
 static mut next_tid: AtomicUint = INIT_ATOMIC_UINT;
 
-local_data_key!(task_local_tid: uint)
+thread_local!(static task_local_tid: Cell<Option<uint>> = None)
 
 /// Every task gets one, that's unique.
 pub fn tid() -> uint {

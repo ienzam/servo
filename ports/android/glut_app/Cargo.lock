@@ -458,7 +458,7 @@ dependencies = [
 [[package]]
 name = "phf"
 version = "0.0.0"
-source = "git+https://github.com/sfackler/rust-phf#18a5ecc028055c3dbd650cc5a064b6fb033d82ef"
+source = "git+https://github.com/sfackler/rust-phf#2f3c6053c2d754974a94aa45a49b8cce10ae88ba"
 dependencies = [
  "xxhash 0.0.1 (git+https://github.com/Jurily/rust-xxhash)",
 ]
@@ -466,8 +466,9 @@ dependencies = [
 [[package]]
 name = "phf_mac"
 version = "0.0.0"
-source = "git+https://github.com/sfackler/rust-phf#18a5ecc028055c3dbd650cc5a064b6fb033d82ef"
+source = "git+https://github.com/sfackler/rust-phf#2f3c6053c2d754974a94aa45a49b8cce10ae88ba"
 dependencies = [
+ "time 0.0.3 (git+https://github.com/rust-lang/time)",
  "xxhash 0.0.1 (git+https://github.com/Jurily/rust-xxhash)",
 ]
 

@@ -62,9 +62,7 @@ git = "https://github.com/servo/rust-url"
 features = ["query_encoding"]
 
 [dependencies.green]
-git = "https://github.com/servo/green-rs"
-branch = "servo"
+git = "https://github.com/alexcrichton/green-rs"
 
 [dependencies.rustuv]
-git = "https://github.com/servo/green-rs"
-branch = "servo"
+git = "https://github.com/alexcrichton/green-rs"

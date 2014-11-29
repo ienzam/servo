@@ -6,11 +6,11 @@ dependencies = [
  "gfx 0.0.1",
  "glfw_app 0.0.1",
  "glutin_app 0.0.1",
- "green 0.0.1 (git+https://github.com/servo/green-rs?ref=servo)",
+ "green 0.0.1 (git+https://github.com/alexcrichton/green-rs)",
  "layout 0.0.1",
  "msg 0.0.1",
  "net 0.0.1",
- "rustuv 0.0.1 (git+https://github.com/servo/green-rs?ref=servo)",
+ "rustuv 0.0.1 (git+https://github.com/alexcrichton/green-rs)",
  "script 0.0.1",
  "url 0.1.0 (git+https://github.com/servo/rust-url)",
  "util 0.0.1",
@@ -352,6 +352,11 @@ dependencies = [
 [[package]]
 name = "green"
 version = "0.0.1"
+source = "git+https://github.com/alexcrichton/green-rs#b7e17fc19bb90d0bb53914e66251e68cc15594e4"
+
+[[package]]
+name = "green"
+version = "0.0.1"
 source = "git+https://github.com/servo/green-rs?ref=servo#9300d7e7dc73680c7446d78b10a309095636e64d"
 
 [[package]]
@@ -567,6 +572,15 @@ source = "git+https://github.com/servo/libpng?ref=servo#d01f32b4eb86904695efe7fc
 name = "rust-xml"
 version = "0.1.2-pre"
 source = "git+https://github.com/netvl/rust-xml#2d9df3267aeaa4d442e1e19a4dfed733cb1397ed"
+
+[[package]]
+name = "rustuv"
+version = "0.0.1"
+source = "git+https://github.com/alexcrichton/green-rs#b7e17fc19bb90d0bb53914e66251e68cc15594e4"
+dependencies = [
+ "green 0.0.1 (git+https://github.com/alexcrichton/green-rs)",
+ "tls 0.0.1 (git+https://github.com/alexcrichton/tls-rs)",
+]
 
 [[package]]
 name = "rustuv"
